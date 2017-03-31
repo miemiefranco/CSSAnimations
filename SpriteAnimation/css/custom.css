@@ -1,0 +1,27 @@
+body{
+    background: #3da1ff;
+}
+
+#top-container{
+    background: #3da1ff;
+    min-height:800px;
+    padding:230px 0;
+}
+#ladybug{
+    width:252px;
+    height:205px;
+    margin:2% auto;
+    background: url('../images/sprite.png') left center;
+    -webkit-animation: play .6s steps(12) infinite;
+    animation: play .6s steps(12) infinite;
+}
+
+@keyframes play {
+    0% {background-position: -3024px;}
+    100% {background-position: 0;}
+}
+
+@-webkit-keyframes play {
+    0% {background-position: -3024px;}
+    100% {background-position: 0;}
+}
